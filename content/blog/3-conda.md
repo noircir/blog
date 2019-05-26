@@ -18,13 +18,16 @@ jupyter notebook
 
 - and then I have to specify a path to anaconda3:
 
+```
 export PATH=~/anaconda3/bin:$PATH
 conda --version
 which jupyter
 which python
+```
 
+That feeling when, after some head-banging, a snippet of advise is found on internet... Like a ray of sunshine...
 
-Frustrated (for the Nth time) with Bash rejecting some commands on Mac, ("-bash: command XXX doesn't exist"), this time, the virtualenv command.... And the suggestions on the web always revolve arouth $PATH, .bash-profile, .bashrc... which doesn't seem to make any difference...
+Frustrated (for the Nth time) with Bash rejecting some commands on Mac, `-bash: command XXX doesn't exist`, this time, the virtualenv command.... And the suggestions on the web always revolve arouth $PATH, .bash-profile, .bashrc... which doesn't seem to make any difference...
 
 So thankful to have found this tiny answer (4th on this page) that if Anaconda package manager is installed , it basically takes over the virtual environment management. 
 
