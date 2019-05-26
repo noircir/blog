@@ -8,28 +8,20 @@ tags:
 ### 05-25-2019: the mess with virtualenv and conda (Anaconda, Miniconda) is resolved.
 
 If you have Anaconda installed, then the usual virtualenv activation from the command line doesn't work. It is now done with conda. 
-
-```conda -v
-
+```bash
+conda -v
 conda update conda
-
 conda search "^python$"
-
-conda create -n yourenvname python=x.x anaconda```
-
+conda create -n yourenvname python=x.x anaconda
+```
 Press y to proceed. This will install the Python version and all the associated anaconda packaged libraries at `path_to_your_anaconda_location/anaconda3/envs/yourenvname`.
-
-
-```conda info -e
-
+```
+conda info -e
 source activate yourenvname
-
-$ source activate venv
-(venv) $
-
+source activate venv
 source deactivate
-
-conda remove -n yourenvname -all``
+conda remove -n yourenvname -all
+```
 
 [Getting started with Conda](https://conda.io/projects/conda/en/latest/user-guide/getting-started.html#)
 
