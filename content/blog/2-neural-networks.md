@@ -1,6 +1,6 @@
 ---
 title: Neural networks
-date: "2015-05-20"
+date: "2019-05-20"
 description: Neural networks' resources.
 tags: 
 - NN

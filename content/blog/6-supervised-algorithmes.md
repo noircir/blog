@@ -1,6 +1,6 @@
 ---
 title: Course "Supervised ML algorithms"
-date: "2015-05-25"
+date: "2019-05-25"
 description: 
 tags: 
 - supervised algorithm

@@ -1,6 +1,6 @@
 ---
 title: Course "Exploratory Data Analysis"
-date: "2015-05-25"
+date: "2019-05-25"
 description: 
 tags: 
 - exploratory data analysis

@@ -1,7 +1,7 @@
 ---
-title: Starting To Learn AI
-date: "2015-05-19"
-description: First two weeks at the AI course, and some useful links.
+title: Got myself into a compressed AI college program.
+date: "2019-05-19"
+description: Continuing education course, 10 months (8 months study + 2 months internship).
 tags: 
 - AI
 - Youtube

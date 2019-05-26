@@ -1,12 +1,10 @@
 ---
-title: Initiation into AI job
-date: "2015-05-25"
+title: Course "Initiation into AI profession"
+date: "2019-05-25"
 description: 
 tags: 
 - job
 ---
-Well... This is a bit weird. 
-
 This is the description of the course (translated from French):
 
 Lecture 1: Brief history of AI. Showing SimBrain functionality.
