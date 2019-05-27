@@ -42,15 +42,22 @@ More:
 [Error “virtualenv : command not found” but install location is in PYTHONPATH](https://stackoverflow.com/questions/39964635/error-virtualenv-command-not-found-but-install-location-is-in-pythonpath?noredirect=1&lq=1)
 
 
-### When you cannot start Jupyter notebook on Mac
+###Jupyter notebook fails to start on Mac
 If you see a response:
 
 `-bash: command jupyter is not found`
 
-  it means that anaconda3 is not in your PATH.
+  it means that anaconda3 is not in your PATH. To fix:
 ```
 export PATH=~/anaconda3/bin:$PATH
 conda --version
 which jupyter
 which python
+```
+### To check versions of packages:
+```
+import sklearn
+import numpy
+print(sklearn.__version__)
+print(numpy.__version__)
 ```

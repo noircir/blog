@@ -1,5 +1,5 @@
 ---
-title: Got myself into a compressed AI college program.
+title: Various AI and ML resources.
 date: "2019-05-19"
 description: Continuing education course, 10 months (8 months study + 2 months internship).
 tags: 
